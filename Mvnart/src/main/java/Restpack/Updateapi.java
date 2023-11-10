@@ -21,6 +21,7 @@ public class Updateapi {
 			//when - give inputs 
 			//given - submit api
 			//then - validate the response
+			// getting some errors
 			
 		RestAssured.baseURI="https://rahulshettyacademy.com";
 		String response= given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json")
